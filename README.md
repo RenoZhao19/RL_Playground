@@ -14,8 +14,13 @@ Weekend reinforcement learning project towards AI/robotics
 
 ### How to Run?
 python3 -m venv .venv # Creating the virtual environment
+
 source .venv/bin/activate # Activating the virtual environment
+
 pip install -r requirements.txt
+
 python3 src/cartpole_random.py
+
 python3 src/cartpole_train_ppo.py
+
 python3 cartpole_evaluation.py # Shows the render window run on trained ppo model
