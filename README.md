@@ -4,13 +4,13 @@ Weekend reinforcement learning project towards AI/robotics
 
 ## Week 1 = CarPole with PPO(Stable_Baseline3)
 - **Learning Concept**: agent, environment, state, action, reward, policy, episode
-- **Environments**: CartPole-v1 (Gymnasium)
+- **Environments**: `CartPole-v1` (Gymnasium)
 - **Algorithm Used to Train Model**: Proximal Policy Optimization(PPO)
 
 ### Results (Run 001)
 - Time steps = 100,000, seed = 67
 - Evaluation(20 Episodes): mean = **500.00 +/- 0.00** (target >= 450)
-- Artifact: results/cartpole/run001/model.zip, notes.md
+- Artifact: `results/cartpole/run001/model.zip`, `notes.md`
 
 ### How to Run?
 python3 -m venv .venv # Creating the virtual environment
